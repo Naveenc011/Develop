@@ -109,7 +109,7 @@ public void orderplacement() throws InterruptedException
 		//state1.selectByVisibleText("lowa");
 		//driver.findElement(By.xpath("//input[@id='zip']")).sendKeys("65454");
 		//Thread.sleep(2000);
-		//billing
+		//billing changes
 		//driver.findElement(By.xpath("//input[@id='BillingAddressEqualsShipping']")).click();
 		//payment info
 		//Select payment = new Select(driver.findElement(By.xpath("//select[@id='payment_method']")));
