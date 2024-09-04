@@ -94,6 +94,7 @@ public void orderplacement() throws InterruptedException
 		driver.findElement(By.xpath("//input[@id='PrimaryMemberLastName']")).sendKeys("Testlast");
 		Select gender = new Select(driver.findElement(By.xpath("//select[@id='PrimaryMemberGender']")));
 		gender.selectByVisibleText("Male");	
+		//new line
 		//driver.findElement(By.xpath("//input[@id='PrimaryMemberDOB']")).sendKeys("10102000");
 		driver.findElement(By.xpath("//input[@id='PrimaryMemberaffiliateID']")).sendKeys("1234567890");
 		//driver.findElement(By.xpath("//input[@id='phone']")).sendKeys("1234567890");
